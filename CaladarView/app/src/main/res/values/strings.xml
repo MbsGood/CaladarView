@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CaladarView</string>
+    <!-- 日历 -->
+    <string name="start_time_tag">起始</string>
+    <string name="end_time_tag">结束</string>
+    <string name="same_tag">始末</string>
+</resources>

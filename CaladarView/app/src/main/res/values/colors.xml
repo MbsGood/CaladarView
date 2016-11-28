@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 日历 -->
+    <color name="selected_day_background">#cea05f</color>
+    <color name="selected_day_text">#fff2f2f2</color>
+    <color name="select_black">#1D1B1B</color>
+    <color name="day_red">#E95E61</color>
+    <color name="previous_gray">#D4D4D4</color>
+    <color name="selected_start_end_color">#cea05f</color>
+    <color name="selected_line">#90ffffff</color>
+    <color name="calendar_line">#e8e8e8</color>
+
+</resources>

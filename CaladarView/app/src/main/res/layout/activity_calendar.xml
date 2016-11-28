@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:calendar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:hardwareAccelerated="false">
+    <!-- 测试专用 ，集成完成日历代码-->
+    <LinearLayout
+        android:id="@+id/lly_header"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="返回" />
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:text="保存" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lly_week"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lly_header"
+        android:background="#CEA05F"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="日"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_day_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="一"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_day_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="二"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_day_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="三"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_day_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="四"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_day_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="五"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_day_name" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="六"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_day_name" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/lly_week"
+        android:background="@color/calendar_line" />
+
+    <View
+        android:id="@+id/v_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:layout_below="@+id/v_line"
+        android:background="@drawable/calendar_month_shadow" />
+
+    <com.plug.caladarview.view.DayPickerView
+        android:id="@+id/pickerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/v_line_1"
+        calendar:drawRoundRect="true" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--  日历   -->
+    <!-- 1-28号 天数大小 -->
+    <dimen name="text_size_day">15sp</dimen>
+    <!-- 月份显示 -->
+    <dimen name="text_size_month">19sp</dimen>
+    <!-- 周一至周五 -->
+    <dimen name="text_size_day_name">16sp</dimen>
+    <!-- 初始与结束的文本大小 -->
+    <dimen name="begin_end_text">12sp</dimen>
+    <!-- 小圆 -->
+    <dimen name="line_circle">4sp</dimen>
+
+    <dimen name="header_month_height">55dp</dimen>
+    <dimen name="selected_day_radius">25.5dp</dimen>
+    <dimen name="calendar_height">330dp</dimen>
+
+    <dimen name="selected_day_text_height">17dp</dimen>
+    <dimen name="selected_day_line_top_height">39dp</dimen>
+    <dimen name="selected_day_line_bottom_height">9dp</dimen>
+    <dimen name="selected_day_line_left">12dp</dimen>
+    <dimen name="selected_day_circle_top">15dp</dimen>
+    <dimen name="selected_begin_last_same_offset">10dp</dimen>
+    <dimen name="month_title_left">15dp</dimen>
+    <dimen name="margin_top">380dp</dimen>
+</resources>
